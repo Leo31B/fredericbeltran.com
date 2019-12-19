@@ -1,28 +1,19 @@
 // Specific CSS for your home-page
 .title {
-  text-decoration-line: underline;
-  text-decoration-color: #E8E8E8;
-  // text-decoration-line: underline;
-  // border-top: 1px solid white;
-  // border-bottom: 1px solid white;
   display: flex;
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 40px;
 }
 
-.text {
-  margin-left: 100px;
-  // margin-right: 100px;
-  p {
-  word-spacing: 1px;
-  }
+.line {
+  border: 1px solid #575757;
+  border-right-color: black;
+  border-left-color: black;
 }
 
-.image {
-  margin-left: 120px;
-  // position: relative;
-  // right: -200px;
+.text p{
+  word-spacing: 1px;
 }
 
 .img1 img{
