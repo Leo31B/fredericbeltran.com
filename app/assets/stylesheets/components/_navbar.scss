@@ -1,9 +1,13 @@
 .name {
   a {
     color: #A5A5A5;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+  }
+  a:hover {
+    text-decoration: none;
   }
   margin: auto;
-  color: #A5A5A5;
 }
 
 .menu {
@@ -16,29 +20,33 @@
   a {
     color: white;
   }
-  margin-right: 80px;
+  a:hover {
+    text-decoration: none;
+    color: #A0A0A0;
+  }
+  margin-right: 60px;
 }
 
 .pm {
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 .facteur-humain {
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 .formations {
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 .docs {
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 .blog {
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 .propos {
-  margin-right: 80px;
+  margin-right: 60px;
 }
