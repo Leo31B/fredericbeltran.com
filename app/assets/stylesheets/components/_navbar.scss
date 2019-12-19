@@ -1,12 +1,38 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.name {
+  margin: auto;
+  color: #A5A5A5;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.menu {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.accueil {
+  margin-right: 80px;
+}
+
+.pm {
+  margin-right: 80px;
+}
+
+.facteur-humain {
+  margin-right: 80px;
+}
+
+.formations {
+  margin-right: 80px;
+}
+
+.docs {
+  margin-right: 80px;
+}
+
+.blog {
+  margin-right: 80px;
+}
+
+.propos {
+  margin-right: 80px;
 }
