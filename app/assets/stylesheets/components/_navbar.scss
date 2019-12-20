@@ -16,6 +16,16 @@
   justify-content: center;
 }
 
+.menucss1 {
+  a {
+    color: red;
+  }
+}
+
+.menucss2 {
+
+}
+
 .accueil {
   a {
     color: white;
@@ -28,25 +38,67 @@
 }
 
 .pm {
+  a {
+    color: white;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #A0A0A0;
+  }
   margin-right: 60px;
 }
 
 .facteur-humain {
+  a {
+    color: white;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #A0A0A0;
+  }
   margin-right: 60px;
 }
 
 .formations {
+  a {
+    color: white;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #A0A0A0;
+  }
   margin-right: 60px;
 }
 
 .docs {
+  a {
+    color: white;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #A0A0A0;
+  }
   margin-right: 60px;
 }
 
 .blog {
+  a {
+    color: white;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #A0A0A0;
+  }
   margin-right: 60px;
 }
 
 .propos {
+  a {
+    color: white;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #A0A0A0;
+  }
   margin-right: 60px;
 }
