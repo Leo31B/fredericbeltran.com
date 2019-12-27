@@ -9,6 +9,7 @@
   border-radius: 10px;
   width: 40px;
   height: 40px;
+  margin-left: auto;
   padding: 5px;
   img {
     width: 30px;
@@ -16,28 +17,7 @@
   }
 }
 
-.presentationpm {
-  border: 1px solid white;
-  border-radius: 25px;
-  padding: 15px;
-  margin-top: 50px;
-}
-
-.formationpm {
-  border: 1px solid white;
-  border-radius: 25px;
-  padding: 15px;
-  margin-top: 50px;
-}
-
-.formationfh {
-  border: 1px solid white;
-  border-radius: 25px;
-  padding: 15px;
-  margin-top: 50px;
-}
-
-.stress-perf {
+.cases-formation {
   border: 1px solid white;
   border-radius: 25px;
   padding: 15px;
@@ -50,4 +30,20 @@
   padding: 15px;
   margin-top: 50px;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 764px) {
+  .cases-formation {
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+
+  .parents {
+    margin: 10px;
+  }
+
+  .mail {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
