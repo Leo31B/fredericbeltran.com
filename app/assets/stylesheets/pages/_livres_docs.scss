@@ -1,0 +1,21 @@
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+}
+
+.nav-link {
+  background-color: black !important;
+}
+
+.nav-tabs {
+  a {
+    color: grey;
+  }
+}
+
+
