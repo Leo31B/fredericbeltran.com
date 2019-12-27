@@ -1,6 +1,6 @@
 <div class="navbar">
 
-  <div class="col">
+  <div class="fullmenu col">
 
     <div class="row">
       <div class="name">
@@ -38,6 +38,63 @@
       </div>
     </div>
 
+  </div>
+
+  <div class="burger"  onclick="myFunction(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+
+    <div id="burgerDrop" class="drop-menu" >
+      <div class="drop-menu-text">
+      <%= link_to "Accueil", root_path %>
+      </div>
+      <div class="drop-menu-text">
+        <a href="/preparation_mentale">Préparation Mentale</a>
+      </div>
+      <div class="drop-menu-text">
+        <a href="/facteur_humain">Facteur Humain</a>
+      </div>
+      <div class="drop-menu-text">
+        <a href="/formations">Formations</a>
+      </div>
+      <div class="drop-menu-text">
+        <a href="/livres_docs">Livres&Docs</a>
+      </div>
+      <div class="drop-menu-text">
+        <a href="/blog">Blog</a>
+      </div>
+      <div class="drop-menu-text">
+        <a href="/a_propos">À propos</a>
+      </div>
+    </div>
+
+    <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+        document.getElementById("burgerDrop").classList.toggle("show");
+      }
+      window.onclick = function(event) {
+        if (!event.target.matches('.burgerleft')) {
+          var dropdowns = document.getElementsByClassName("drop-menu-left");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+          }
+          var dropdowns = document.getElementsByClassName("burgerleft");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('change')) {
+                openDropdown.classList.remove('change');
+              }
+          }
+        }
+      }
+    </script>
   </div>
 
 </div>
