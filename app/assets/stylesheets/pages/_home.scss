@@ -40,3 +40,13 @@
   width: 200px;
   filter: grayscale(100%);
 }
+
+@media screen and (max-width: 764px) {
+  .image {
+    display: none;
+  }
+
+  .title {
+    text-align: center;
+  }
+}
