@@ -6,3 +6,16 @@
   height: 500px;
   width: 450px;
 }
+
+@media screen and (max-width: 764px) {
+  .selfie {
+    display: flex;
+    justify-content: center;
+  }
+
+  .selfie img {
+    height: 250px;
+    width: 75vw;
+    margin-bottom: 20px;
+  }
+}
