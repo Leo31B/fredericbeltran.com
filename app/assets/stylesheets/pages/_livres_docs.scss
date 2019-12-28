@@ -50,3 +50,24 @@
     width: 300;
   }
 }
+
+@media screen and (max-width: 764px) {
+  .nav-link {
+    margin-right: 20px;
+  }
+  .livres-docs {
+    margin-left: 110px;
+  }
+  .title-book {
+    margin-left: 20px;
+  }
+  .editeur {
+    margin-left: 20px;
+  }
+  .book {
+    margin-left: 20px;
+  }
+  .video {
+    display: none;
+  }
+}
