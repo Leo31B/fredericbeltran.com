@@ -10,12 +10,19 @@
 
 .nav-link {
   background-color: black !important;
+  margin-right: 60px;
 }
 
 .nav-tabs {
+  border-bottom: none;
   a {
     color: grey;
   }
+}
+
+.livres-docs {
+  margin-top: 40px;
+  margin-left: 40vw;
 }
 
 
