@@ -1,2 +1,37 @@
-<h1>Pages#livres_docs</h1>
-<p>Find me in app/views/pages/livres_docs.html.erb</p>
+<div class="col-xs-12 col-sm-8">
+  <div class="livres-docs row">
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Livres</a>
+      <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Docs</a>
+    </div>
+  </div>
+
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+    <div class="title-book row">
+      <p>MON ENFANT FAIT DE LA COMPETITION:</p>
+    </div>
+    <div class="editeur row">
+      <p style="color: #A0A0A0;">Ed AMPHORA</p>
+    </div>
+
+    <div class="row">
+      <div class="book col">
+        <%= image_tag("book.png", :alt => "plane") %>
+      </div>
+
+      <div class="video col">
+        <%= image_tag("tennis.jpg", :alt => "plane") %>
+      </div>
+
+    </div>
+
+    </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+    Docs
+
+    </div>
+  </div>
+</div>
