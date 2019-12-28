@@ -156,6 +156,18 @@
   margin-bottom: 10px;
 }
 
+.name2 {
+  a {
+    color: #A5A5A5;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  margin: auto;
+}
+
 // .drop-menu-text:hover {
 //   a{
 //     color: white;
@@ -170,7 +182,7 @@
 }
 
 @media screen and (min-width: 813px) {
-  .name, .burger {
+  .name2, .burger {
     display: none;
   }
 }
