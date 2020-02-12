@@ -97,7 +97,7 @@
   position: fixed;
   z-index: 1;
   padding-top: 100px;
-  padding-left: 350px;
+  padding-left: 50px;
   left: 0;
   top: 0;
   width: 100%;
@@ -112,17 +112,6 @@
   display: block;
   width: 80%;
   max-width: 700px;
-}
-
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
 }
 
 .modal-content, #caption {

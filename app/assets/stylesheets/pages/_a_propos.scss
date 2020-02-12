@@ -3,8 +3,9 @@
 }
 
 .selfie img {
-  height: 500px;
+  height: 550px;
   width: 450px;
+  filter: grayscale(100%);
 }
 
 @media screen and (max-width: 764px) {
