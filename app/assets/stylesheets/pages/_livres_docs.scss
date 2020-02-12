@@ -81,7 +81,8 @@
 
 // MODAL
 #myImg {
-  width: 200px;
+  width: 400px;
+  margin-bottom: 50px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -96,6 +97,7 @@
   position: fixed;
   z-index: 1;
   padding-top: 100px;
+  padding-left: 350px;
   left: 0;
   top: 0;
   width: 100%;
@@ -137,7 +139,8 @@
   position: absolute;
   top: 15px;
   right: 35px;
-  color: white;
+  color: #f1f1f1;
+  font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
 }
