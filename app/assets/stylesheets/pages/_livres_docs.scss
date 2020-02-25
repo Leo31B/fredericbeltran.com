@@ -58,6 +58,13 @@
   }
 }
 
+@media screen and (min-width: 764px) {
+  .documentation {
+    position: relative;
+    left: 225px;
+  }
+}
+
 @media screen and (max-width: 764px) {
   .nav-link {
     margin-right: 20px;
@@ -77,6 +84,9 @@
   .video {
     display: none;
   }
+  #myImg {
+    width: 350px !important;
+  }
 }
 
 // MODAL
@@ -84,13 +94,13 @@
   width: 400px;
   margin-bottom: 50px;
   border-radius: 5px;
-  cursor: pointer;
+  // cursor: pointer;
   transition: 0.3s;
 }
 
-#myImg:hover {
-  opacity: 0.7;
-}
+// #myImg:hover {
+//   opacity: 0.7;
+// }
 
 .modal {
   display: none;
