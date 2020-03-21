@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   get 'facteur_humain', to: 'pages#facteur_humain'
   get 'preparation_mentale', to: 'pages#preparation_mentale'
   root to: 'pages#home'
+  resources :articles
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
