@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   get 'a_propos', to: 'pages#a_propos'
-  get 'blog', to: 'pages#blog'
   get 'livres_docs', to: 'pages#livres_docs'
   get 'formations', to: 'pages#formations'
   get 'facteur_humain', to: 'pages#facteur_humain'
