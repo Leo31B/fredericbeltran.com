@@ -19,7 +19,7 @@ gem 'mail', '~> 2.7', '>= 2.7.1'
 gem 'will_paginate', '~> 3.3'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'cloudinary', '~> 1.12.0'
-gem 'figaro'
+gem 'dotenv-rails', groups: [:development, :test]
 
 group :development do
   gem 'web-console', '>= 3.3.0'
