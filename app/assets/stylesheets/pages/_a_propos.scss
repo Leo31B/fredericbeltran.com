@@ -2,12 +2,6 @@
   margin-top: 60px;
 }
 
-.selfie img {
-  height: 550px;
-  width: 450px;
-  filter: grayscale(100%);
-}
-
 @media screen and (max-width: 764px) {
   .selfie {
     display: flex;
@@ -16,7 +10,7 @@
 
   .selfie img {
     height: 250px;
-    width: 75vw;
+    width: 200px;
     margin-bottom: 20px;
   }
 }
