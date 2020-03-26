@@ -20,12 +20,11 @@
       <div class="row">
         <div class="book col">
           <a target="_blank" href="https://ed-amphora.fr/produit/enseignement-entrainement/mon-enfant-fait-de-la-competition/">
-            <%= image_tag("book.png", :alt => "book") %>
+            <%= cl_image_tag("fredericbeltran/book_twtm7a.png", :height=>250, :width=>200, :crop=>"scale") %>
           </a>
         </div>
 
         <!-- <div class="video col">
-          <%= image_tag("page1.png") %>
         </div> -->
       </div>
 
@@ -33,17 +32,24 @@
 
     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 
-      <div class="documentation row">
-        <div class="col-sm-6">
-          <%= image_tag("lesport.jpeg",:id => "myImg", :alt => "sport") %>
-          <%= image_tag("emotions.jpeg",:id => "myImg", :alt => "emotions") %>
-          <%= image_tag("petitevoix.jpeg",:id => "myImg", :alt => "petitevoix") %>
+      <div class="documentation col">
+        <div class="doc1">
+          <%= cl_image_tag("fredericbeltran/lesport_gh6axo.jpg", :width=>800, :crop=>"scale") %>
         </div>
-
-        <div class="col-sm-6">
-          <%= image_tag("objectifs.jpeg",:id => "myImg", :alt => "objectifs") %>
-          <%= image_tag("cerveau1.jpeg",:id => "myImg", :alt => "cerveau") %>
-          <%= image_tag("cerveau2.jpeg",:id => "myImg", :alt => "cerveau") %>
+        <div class="doc1">
+          <%= cl_image_tag("fredericbeltran/emotions_u3d62k.jpg", :width=>800, :crop=>"scale") %>
+        </div>
+        <div class="doc1">
+          <%= cl_image_tag("fredericbeltran/petitevoix_hrgd4t.jpg", :width=>800, :crop=>"scale") %>
+        </div>
+        <div class="doc1">
+          <%= cl_image_tag("fredericbeltran/objectifs_pw8mm6.jpg", :width=>800, :crop=>"scale") %>
+        </div>
+        <div class="doc1">
+          <%= cl_image_tag("fredericbeltran/cerveau1_wjlnkh.jpg", :width=>800, :crop=>"scale") %>
+        </div>
+        <div class="doc1">
+          <%= cl_image_tag("fredericbeltran/cerveau2_ygyvvw.jpg", :width=>800, :crop=>"scale") %>
         </div>
       </div>
 
@@ -51,7 +57,7 @@
         <!-- The close button -->
         <span class="close">&times;</span>
         <!-- Modal content (the image) -->
-        <%= image_tag("lesport.jpeg", :alt => "sport") %>
+       <!--  <%= image_tag("", :alt => "sport") %> -->
       </div>
 
       <!-- <script>

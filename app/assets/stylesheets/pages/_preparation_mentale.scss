@@ -11,12 +11,6 @@ p {
   font-weight: bold;
 }
 
-.picture1 img{
-  height: 280px;
-  width: 80vw;
-  filter: grayscale(100%);
-}
-
 .theorie {
   margin-top: 40px;
   margin-bottom: 20px;
@@ -31,22 +25,12 @@ p {
   margin-right: 60px;
 }
 
-.picture2 img {
-  height: 250px;
-  width: 350px;
-}
-
 .cerveau {
   margin-top: 50px;
 }
 
 .paragraphe3 {
   margin-right: 60px;
-}
-
-.picture3 img {
-  height: 250px;
-  width: 350px;
 }
 
 .fonctionnement {
@@ -58,18 +42,8 @@ p {
   margin-right: 60px;
 }
 
-.picture4 img {
-  height: 250px;
-  width: 350px;
-}
-
 .paragraphe5 {
   margin-right: 60px;
-}
-
-.picture5 img{
-  height: 250px;
-  width: 350px;
 }
 
 @media screen and (max-width: 764px) {
@@ -78,20 +52,28 @@ p {
     margin-right: 15px;
   }
 
-  .picture1 img{
-  height: 120px;
-  width: 100vw;
-  filter: grayscale(100%);
+  .picture1 {
+    display: none;
   }
 
   .p2 {
     margin-left: 15px;
   }
 
-  .picture5 img{
-  height: 250px;
-  width: 350px;
-  margin-bottom: 20px;
-}
+  .picture2 {
+    display: none;
+  }
+
+  .picture3 {
+    display: none;
+  }
+
+  .picture4 {
+    display: none;
+  }
+
+  .picture5 {
+    display: none;
+  }
 }
 

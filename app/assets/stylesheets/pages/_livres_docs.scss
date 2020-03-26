@@ -42,31 +42,18 @@
 
 .book {
   margin-left: 150px;
-  img {
-    height: 250px;
-    width: 200px;
-  }
 }
 
 .video {
-  img {
-    height: 250px;
-    width: 400;
-  }
+}
+
+.documentation {
+  left: 250px;
 }
 
 .doc1 {
-  img {
-    height: 225px;
-    width: 300px;
-  }
-}
-
-@media screen and (min-width: 764px) {
-  .documentation {
-    position: relative;
-    left: 225px;
-  }
+  // margin-left: auto;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 764px) {
