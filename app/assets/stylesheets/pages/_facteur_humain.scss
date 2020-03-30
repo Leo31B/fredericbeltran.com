@@ -1,16 +1,19 @@
-// @media screen and (min-width: 764px) {
-//   .fh-footer {
-//     margin-top: 60px;
-//   }
-// }
-
+.text-fh {
+  padding: 15px;
+}
 
 .video-fh {
-  // background-color: red;
-  // width: 400px;
-  // height: 350px;
-  // margin-top: 50px;
-  // margin-bottom: 50px;
-  // margin-left: auto;
-  // margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  video {
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .video-fh video {
+    width: 300px;
+  }
 }
