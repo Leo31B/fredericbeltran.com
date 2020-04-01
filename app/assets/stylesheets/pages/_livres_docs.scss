@@ -41,8 +41,8 @@
 }
 
 .book {
-  margin-left: 120px;
-  margin-bottom: 40px;
+  margin-left: 190px;
+  margin-bottom: 50px;
 }
 
 .video {
@@ -78,7 +78,10 @@
     margin-left: 20px;
   }
   .video {
-    display: none;
+    margin-left: 0;
+    video {
+      width: 350px;
+    }
   }
   #myImg {
     width: 350px !important;
